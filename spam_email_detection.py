@@ -87,7 +87,7 @@ predicted_class = nb.predict(new_email_tfidf)
 
 print("\nPredicted class:", "Spam" if predicted_class[0] == 1 else "Ham")
 
-!pip install gradio
+pip install gradio
 import gradio as gr
 import pandas as pd
 import zipfile
